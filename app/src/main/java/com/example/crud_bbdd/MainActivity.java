@@ -129,7 +129,6 @@ public class MainActivity extends AppCompatActivity {
 
                 cursor.moveToFirst();
 
-                //El de pildorasInformaticas lo hace con un try catch
                 if (cursor.getCount()>0) {
                     textName.setText(cursor.getString(0));
                     textSurname.setText(cursor.getString(1));
